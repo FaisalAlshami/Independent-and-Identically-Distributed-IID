@@ -8,8 +8,7 @@ In federated learning, Independent and Identically Distributed (IID) is a proper
 
 Technical definition of an IID statistics is:
 
-Each x^((i))~D (Identically distributed)
-∀i≠j  P(x^((i) ),x^((j) ) )=P(x^((i) ) )  P(x^((j) ) ) (Independently Distributed) 
+![image](https://user-images.githubusercontent.com/23058510/233084887-17d8225d-cd75-48db-aa99-54bcbabdf2f3.png) 
 
 
 
