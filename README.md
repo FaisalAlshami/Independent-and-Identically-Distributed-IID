@@ -8,6 +8,10 @@ In federated learning, Independent and Identically Distributed (IID) is a proper
 
 Technical definition of an IID statistics is:
 
+Each x^((i))~D (Identically distributed)
+∀i≠j  P(x^((i) ),x^((j) ) )=P(x^((i) ) )  P(x^((j) ) ) (Independently Distributed) 
+
+
 
 Having IID data is important in federated learning because it enables the central server to train a global model that can generalize well to new data. When the data from all clients is IID, the central server can combine the data from different clients to create a more diverse and representative dataset, which can improve the overall performance of the model. However, when the data is not IID, such as when some clients have more data than others or when the data from different clients has different distributions, it can be more challenging to train a model that performs well on all clients.
 To assume we have MNIST dataset D with length 60K (60,000 images), and 10 (num_client=10) clients will participate in the training process. According to the IID principle, we will distribute D to all clients (10 clients) equally. The figure follows the distribution process based on IID settings. 
